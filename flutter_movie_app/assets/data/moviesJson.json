@@ -1,0 +1,714 @@
+[
+    {
+        "id": 0,
+        "movieName": "12 Angry Men",
+        "movieYear": 1957,
+        "movieRating": 9.0,
+        "movieSummary": "The jury in a New York City murder trial is frustrated by a single member whose skeptical caution forces them to more carefully consider the evidence before jumping to a hasty verdict.",
+        "movieImageUrl": "assets/images/12angrymen.jpg"
+    },
+    {
+        "id": 1,
+        "movieName": "The Good, The Bad and Ugly",
+        "movieYear": 1966,
+        "movieRating": 8.8,
+        "movieSummary": "A bounty hunting scam joins two men in an uneasy alliance against a third in a race to find a fortune in gold buried in a remote cemetery.",
+        "movieImageUrl": "assets/images/gba.jpg"
+    },
+    {
+        "id": 2,
+        "movieName": "The Lord Of The Rings: The Return Of The King",
+        "movieYear": 2003,
+        "movieRating": 9.0,
+        "movieSummary": "Gandalf and Aragorn lead the World of Men against Sauron's army to draw his gaze from Frodo and Sam as they approach Mount Doom with the One Ring.",
+        "movieImageUrl": "assets/images/lotrking.jpg"
+    },
+    {
+        "id": 3,
+        "movieName": "The Lord Of The Rings: The Fellowship Of The Ring",
+        "movieYear": 2001,
+        "movieRating": 8.8,
+        "movieSummary": "A meek Hobbit from the Shire and eight companions set out on a journey to destroy the powerful One Ring and save Middle-earth from the Dark Lord Sauron.",
+        "movieImageUrl": "assets/images/lotrring.jpg"
+    },
+    {
+        "id": 4,
+        "movieName": "Pulp Fiction",
+        "movieYear": 1994,
+        "movieRating": 8.9,
+        "movieSummary": "The lives of two mob hitmen, a boxer, a gangster and his wife, and a pair of diner bandits intertwine in four tales of violence and redemption.",
+        "movieImageUrl": "assets/images/pulpfiction.jpg"
+    },
+    {
+        "id": 5,
+        "movieName": "Schindler's List",
+        "movieYear": 1993,
+        "movieRating": 9.0,
+        "movieSummary": "In German-occupied Poland during World War II, industrialist Oskar Schindler gradually becomes concerned for his Jewish workforce after witnessing their persecution by the Nazis.",
+        "movieImageUrl": "assets/images/schdinlerslist.jpg"
+    },
+    {
+        "id": 6,
+        "movieName": "The Shawshank Redemption",
+        "movieYear": 1994,
+        "movieRating": 9.3,
+        "movieSummary": "Two imprisoned men bond over a number of years, finding solace and eventual redemption through acts of common decency.",
+        "movieImageUrl": "assets/images/sredemption.jpg"
+    },
+    {
+        "id": 7,
+        "movieName": "The Dark Knight",
+        "movieYear": 2008,
+        "movieRating": 9.0,
+        "movieSummary": "When the menace known as the Joker wreaks havoc and chaos on the people of Gotham, Batman must accept one of the greatest psychological and physical tests of his ability to fight injustice.",
+        "movieImageUrl": "assets/images/thedarkknight.jpg"
+    },
+    {
+        "id": 8,
+        "movieName": "The Godfather",
+        "movieYear": 1972,
+        "movieRating": 9.2,
+        "movieSummary": "The aging patriarch of an organized crime dynasty in postwar New York City transfers control of his clandestine empire to his reluctant youngest son.",
+        "movieImageUrl": "assets/images/thegodfather.jpg"
+    },
+    {
+        "id": 9,
+        "movieName": "The Godfather 2",
+        "movieYear": 1974,
+        "movieRating": 9.0,
+        "movieSummary": "The early life and career of Vito Corleone in 1920s New York City is portrayed, while his son, Michael, expands and tightens his grip on the family crime syndicate.",
+        "movieImageUrl": "assets/images/thegodfather2.jpg"
+    },
+    {
+        "id": 10,
+        "movieName": "Forrest Gump",
+        "movieYear": 1994,
+        "movieRating": 8.8,
+        "movieSummary": "The presidencies of Kennedy and Johnson, the Vietnam War, the Watergate scandal and other historical events unfold from the perspective of an Alabama man with an IQ of 75, whose only desire is to be reunited with his childhood sweetheart.",
+        "movieImageUrl": "assets/images/forrestgump.jpg"
+    },
+    {
+        "id": 11,
+        "movieName": "Fight Club",
+        "movieYear": 1999,
+        "movieRating": 8.8,
+        "movieSummary": "An insomniac office worker and a devil-may-care soap maker form an underground fight club that evolves into much more.",
+        "movieImageUrl": "assets/images/fightclub.jpg"
+    },
+    {
+        "id": 12,
+        "movieName": "The Lord of the Rings: The Two Towers",
+        "movieYear": 2002,
+        "movieRating": 8.8,
+        "movieSummary": "While Frodo and Sam edge closer to Mordor with the help of the shifty Gollum, the divided fellowship makes a stand against Sauron's new ally, Saruman, and his hordes of Isengard.",
+        "movieImageUrl": "assets/images/thelordsoftheringsthetwotowers.jpg"
+    },
+    {
+        "id": 13,
+        "movieName": "Inception",
+        "movieYear": 2010,
+        "movieRating": 8.8,
+        "movieSummary": "A thief who steals corporate secrets through the use of dream-sharing technology is given the inverse task of planting an idea into the mind of a C.E.O., but his tragic past may doom the project and his team to disaster.",
+        "movieImageUrl": "assets/images/inception.jpg"
+    },
+    {
+        "id": 14,
+        "movieName": "Star Wars: The Empire Strikes Back",
+        "movieYear": 1980,
+        "movieRating": 8.7,
+        "movieSummary": "After the Rebels are brutally overpowered by the Empire on the ice planet Hoth, Luke Skywalker begins Jedi training with Yoda, while his friends are pursued across the galaxy by Darth Vader and bounty hunter Boba Fett.",
+        "movieImageUrl": "assets/images/starwarstheempirestrikesback.jpg"
+    },
+    {
+        "id": 15,
+        "movieName": "The Matrix",
+        "movieYear": 1999,
+        "movieRating": 8.7,
+        "movieSummary": "When a beautiful stranger leads computer hacker Neo to a forbidding underworld, he discovers the shocking truth--the life he knows is the elaborate deception of an evil cyber-intelligence.",
+        "movieImageUrl": "assets/images/thematrix.jpg"
+    },
+    {
+        "id": 16,
+        "movieName": "Goodfellas",
+        "movieYear": 1990,
+        "movieRating": 8.7,
+        "movieSummary": "The story of Henry Hill and his life in the mob, covering his relationship with his wife Karen Hill and his mob partners Jimmy Conway and Tommy DeVito in the Italian-American crime syndicate.",
+        "movieImageUrl": "assets/images/goodfellas.jpg"
+    },
+    {
+        "id": 17,
+        "movieName": "One Flew Over the Cuckoo's Nest",
+        "movieYear": 1975,
+        "movieRating": 8.7,
+        "movieSummary": "In the Fall of 1963, a Korean War veteran and criminal pleads insanity and is admitted to a mental institution, where he rallies up the scared patients against the tyrannical nurse.",
+        "movieImageUrl": "assets/images/oneflewoverthecuckoosnest.jpg"
+    },
+    {
+        "id": 18,
+        "movieName": "Se7en",
+        "movieYear": 1995,
+        "movieRating": 8.6,
+        "movieSummary": "Two detectives, a rookie and a veteran, hunt a serial killer who uses the seven deadly sins as his motives.",
+        "movieImageUrl": "assets/images/seven.jpg"
+    },
+    {
+        "id": 19,
+        "movieName": "Shichinin no samurai",
+        "movieYear": 1954,
+        "movieRating": 8.6,
+        "movieSummary": "Farmers from a village exploited by bandits hire a veteran samurai for protection, who gathers six other samurai to join him. As the samurai teach the peasants how to defend themselves, the village is attacked by an army of bandits.",
+        "movieImageUrl": "assets/images/sevensamurai.jpg"
+    },
+    {
+        "id": 20,
+        "movieName": "It's a Wonderful Life",
+        "movieYear": 1946,
+        "movieRating": 8.6,
+        "movieSummary": "An angel is sent from Heaven to help a desperately frustrated businessman by showing him what life would have been like if he had never existed.",
+        "movieImageUrl": "assets/images/itswonderfullife.jpg"
+    },
+    {
+        "id": 21,
+        "movieName": "The Silence of the Lambs",
+        "movieYear": 1991,
+        "movieRating": 8.6,
+        "movieSummary": "A young F.B.I. cadet must receive the help of an incarcerated and manipulative cannibal killer to help catch another serial killer, a madman who skins his victims.",
+        "movieImageUrl": "assets/images/thesilenceofthelambs.jpg"
+    },
+    {
+        "id": 22,
+        "movieName": "Cidade de Deus",
+        "movieYear": 2002,
+        "movieRating": 8.6,
+        "movieSummary": "In the slums of Rio, two kids' paths diverge as one struggles to become a photographer and the other a kingpin.",
+        "movieImageUrl": "assets/images/cidadededeus.jpg"
+    },
+    {
+        "id": 23,
+        "movieName": "Saving Private Ryan",
+        "movieYear": 1998,
+        "movieRating": 8.6,
+        "movieSummary": "Following the Normandy Landings, a group of U.S. soldiers go behind enemy lines to retrieve a paratrooper whose brothers have been killed in action.",
+        "movieImageUrl": "assets/images/savingprivateryan.jpg"
+    },
+    {
+        "id": 24,
+        "movieName": "Life Is Beautiful",
+        "movieYear": 1997,
+        "movieRating": 8.6,
+        "movieSummary": "When an open-minded Jewish waiter and his son become victims of the Holocaust, he uses a perfect mixture of will, humor, and imagination to protect his son from the dangers around their camp.",
+        "movieImageUrl": "assets/images/lifeisbeautiful.jpg"
+    },
+    {
+        "id": 25,
+        "movieName": "Interstellar",
+        "movieYear": 2014,
+        "movieRating": 8.6,
+        "movieSummary": "A team of explorers travel through a wormhole in space in an attempt to ensure humanity's survival.",
+        "movieImageUrl": "assets/images/interstellar.jpg"
+    },
+    {
+        "id": 26,
+        "movieName": "The Green Mile",
+        "movieYear": 1999,
+        "movieRating": 8.6,
+        "movieSummary": "The lives of guards on Death Row are affected by one of their charges: a black man accused of child murder and rape, yet who has a mysterious gift.",
+        "movieImageUrl": "assets/images/thegreenmile.jpg"
+    },
+    {
+        "id": 27,
+        "movieName": "Star Wars: A New Hope",
+        "movieYear": 1977,
+        "movieRating": 8.6,
+        "movieSummary": "Luke Skywalker joins forces with a Jedi Knight, a cocky pilot, a Wookiee and two droids to save the galaxy from the Empire's world-destroying battle station, while also attempting to rescue Princess Leia from the mysterious Darth Vader.",
+        "movieImageUrl": "assets/images/starwarsanewhope.jpg"
+    },
+    {
+        "id": 28,
+        "movieName": "Terminator 2: Judgment Day",
+        "movieYear": 1991,
+        "movieRating": 8.6,
+        "movieSummary": "A cyborg, identical to the one who failed to kill Sarah Connor, must now protect her 10-year old adolescent son John from an even more advanced and powerful cyborg.",
+        "movieImageUrl": "assets/images/terminator2.jpg"
+    },
+    {
+        "id": 29,
+        "movieName": "Back to the Future",
+        "movieYear": 1985,
+        "movieRating": 8.5,
+        "movieSummary": "Marty McFly, a 17-year-old high school student, is accidentally sent 30 years into the past in a time-traveling DeLorean invented by his close friend, the maverick scientist Doc Brown.",
+        "movieImageUrl": "assets/images/backtothefuture.jpg"
+    },
+    {
+        "id": 30,
+        "movieName": "Spirited Away",
+        "movieYear": 2001,
+        "movieRating": 8.6,
+        "movieSummary": "During her family's move to the suburbs, a sullen 10-year-old girl wanders into a world ruled by gods, witches, and spirits, and where humans are changed into beasts.",
+        "movieImageUrl": "assets/images/spiritedaway.jpg"
+    },
+    {
+        "id": 31,
+        "movieName": "Psycho",
+        "movieYear": 1960,
+        "movieRating": 8.5,
+        "movieSummary": "A Phoenix secretary embezzles $40,000 from her employer's client, goes on the run and checks into a remote motel run by a young man under the domination of his mother.",
+        "movieImageUrl": "assets/images/psycho.jpg"
+    },
+    {
+        "id": 32,
+        "movieName": "The Pianist",
+        "movieYear": 2002,
+        "movieRating": 8.5,
+        "movieSummary": "A Polish Jewish musician struggles to survive the destruction of the Warsaw ghetto of World War II.",
+        "movieImageUrl": "assets/images/thepianist.jpg"
+    },
+    {
+        "id": 33,
+        "movieName": "Parasite",
+        "movieYear": 2019,
+        "movieRating": 8.5,
+        "movieSummary": "Greed and class discrimination threaten the newly formed symbiotic relationship between the wealthy Park family and the destitute Kim clan.",
+        "movieImageUrl": "assets/images/parasite.jpg"
+    },
+    {
+        "id": 34,
+        "movieName": "Leon The Professional",
+        "movieYear": 1994,
+        "movieRating": 8.5,
+        "movieSummary": "12-year-old Mathilda is reluctantly taken in by Léon, a professional assassin, after her family is murdered. An unusual relationship forms as she becomes his protégée and learns the assassin's trade.",
+        "movieImageUrl": "assets/images/leontheprofessional.jpg"
+    },
+    {
+        "id": 35,
+        "movieName": "The Lion King",
+        "movieYear": 1994,
+        "movieRating": 8.5,
+        "movieSummary": "Lion prince Simba and his father are targeted by his bitter uncle, who wants to ascend the throne himself.",
+        "movieImageUrl": "assets/images/lionking.jpg"
+    },
+    {
+        "id": 36,
+        "movieName": "Gladiator",
+        "movieYear": 2000,
+        "movieRating": 8.5,
+        "movieSummary": "A former Roman General sets out to exact vengeance against the corrupt emperor who murdered his family and sent him into slavery.",
+        "movieImageUrl": "assets/images/gladiator.jpg"
+    },
+    {
+        "id": 37,
+        "movieName": "American History X",
+        "movieYear": 1998,
+        "movieRating": 8.5,
+        "movieSummary": "A former neo-nazi skinhead tries to prevent his younger brother from going down the same wrong path that he did.",
+        "movieImageUrl": "assets/images/americanhistoryx.jpg"
+    },
+    {
+        "id": 38,
+        "movieName": "The Departed",
+        "movieYear": 2006,
+        "movieRating": 8.5,
+        "movieSummary": "An undercover cop and a mole in the police attempt to identify each other while infiltrating an Irish gang in South Boston.",
+        "movieImageUrl": "assets/images/thedeparted.jpg"
+    },
+    {
+        "id": 39,
+        "movieName": "The Usual Suspects",
+        "movieYear": 1995,
+        "movieRating": 8.5,
+        "movieSummary": "A sole survivor tells of the twisty events leading up to a horrific gun battle on a boat, which began when five criminals met at a seemingly random police lineup.",
+        "movieImageUrl": "assets/images/theusualsuspects.jpg"
+    },
+    {
+        "id": 40,
+        "movieName": "The Prestige",
+        "movieYear": 2006,
+        "movieRating": 8.5,
+        "movieSummary": "After a tragic accident, two stage magicians in 1890s London engage in a battle to create the ultimate illusion while sacrificing everything they have to outwit each other.",
+        "movieImageUrl": "assets/images/theprestige.jpg"
+    },
+    {
+        "id": 41,
+        "movieName": "Whiplash",
+        "movieYear": 2014,
+        "movieRating": 8.5,
+        "movieSummary": "A promising young drummer enrolls at a cut-throat music conservatory where his dreams of greatness are mentored by an instructor who will stop at nothing to realize a student's potential.",
+        "movieImageUrl": "assets/images/whiplash.jpg"
+    },
+    {
+        "id": 42,
+        "movieName": "Casablanca",
+        "movieYear": 1942,
+        "movieRating": 8.5,
+        "movieSummary": "A cynical expatriate American cafe owner struggles to decide whether or not to help his former lover and her fugitive husband escape the Nazis in French Morocco.",
+        "movieImageUrl": "assets/images/casablanca.jpg"
+    },
+    {
+        "id": 43,
+        "movieName": "Hara Kiri",
+        "movieYear": 1962,
+        "movieRating": 8.6,
+        "movieSummary": "When a ronin requesting seppuku at a feudal lord's palace is told of the brutal suicide of another ronin who previously visited, he reveals how their pasts are intertwined - and in doing so challenges the clan's integrity.",
+        "movieImageUrl": "assets/images/harakiri.jpg"
+    },
+    {
+        "id": 44,
+        "movieName": "Intouchables",
+        "movieYear": 2011,
+        "movieRating": 8.5,
+        "movieSummary": "After he becomes a quadriplegic from a paragliding accident, an aristocrat hires a young man from the projects to be his caregiver.",
+        "movieImageUrl": "assets/images/intouchables.jpg"
+    },
+    {
+        "id": 45,
+        "movieName": "Grave Of The Fire Flies",
+        "movieYear": 1988,
+        "movieRating": 8.5,
+        "movieSummary": "A young boy and his little sister struggle to survive in Japan during World War II.",
+        "movieImageUrl": "assets/images/graveonthefireflies.jpg"
+    },
+    {
+        "id": 46,
+        "movieName": "Modern Times",
+        "movieYear": 1936,
+        "movieRating": 8.5,
+        "movieSummary": "The Tramp struggles to live in modern industrial society with the help of a young homeless woman.",
+        "movieImageUrl": "assets/images/moderntimes.jpg"
+    },
+    {
+        "id": 47,
+        "movieName": "Once Upon A Time In The West",
+        "movieYear": 1968,
+        "movieRating": 8.5,
+        "movieSummary": "A mysterious stranger with a harmonica joins forces with a notorious desperado to protect a beautiful widow from a ruthless assassin working for the railroad.",
+        "movieImageUrl": "assets/images/onceuponatimeinthewest.jpg"
+    },
+    {
+        "id": 48,
+        "movieName": "Rear Window",
+        "movieYear": 1954,
+        "movieRating": 8.5,
+        "movieSummary": "A wheelchair-bound photographer spies on his neighbors from his Greenwich Village courtyard apartment window, and becomes convinced one of them has committed murder, despite the skepticism of his fashion-model girlfriend.",
+        "movieImageUrl": "assets/images/rearwindow.jpg"
+    },
+    {
+        "id": 49,
+        "movieName": "Cinema Paradiso",
+        "movieYear": 1988,
+        "movieRating": 8.5,
+        "movieSummary": "A filmmaker recalls his childhood when falling in love with the pictures at the cinema of his home village and forms a deep friendship with the cinema's projectionist.",
+        "movieImageUrl": "assets/images/cinemaparadiso.jpg"
+    },
+    {
+        "id": 50,
+        "movieName": "Alien",
+        "movieYear": 1979,
+        "movieRating": 8.5,
+        "movieSummary": "The crew of a commercial spacecraft encounter a deadly lifeform after investigating an unknown transmission.",
+        "movieImageUrl": "assets/images/alien.jpg"
+    },
+    {
+        "id": 51,
+        "movieName": "City Lights",
+        "movieYear": 1931,
+        "movieRating": 8.5,
+        "movieSummary": "With the aid of a wealthy erratic tippler, a dewy-eyed tramp who has fallen in love with a sightless flower girl accumulates money to be able to help her medically.",
+        "movieImageUrl": "assets/images/citylights.jpg"
+    },
+    {
+        "id": 52,
+        "movieName": "Apocalypse Now",
+        "movieYear": 1979,
+        "movieRating": 8.5,
+        "movieSummary": "A U.S. Army officer serving in Vietnam is tasked with assassinating a renegade Special Forces Colonel who sees himself as a god.",
+        "movieImageUrl": "assets/images/apocalypsenow.jpg"
+    },
+    {
+        "id": 53,
+        "movieName": "Memento",
+        "movieYear": 2000,
+        "movieRating": 8.4,
+        "movieSummary": "A man with short-term memory loss attempts to track down his wife's murderer.",
+        "movieImageUrl": "assets/images/memento.jpg"
+    },
+    {
+        "id": 54,
+        "movieName": "Indiana Jones: Raiders of the Lost Ark",
+        "movieYear": 1981,
+        "movieRating": 8.4,
+        "movieSummary": "Archaeology professor Indiana Jones ventures to seize a biblical artefact known as the Ark of the Covenant. While doing so, he puts up a fight against Renee and a troop of Nazis.",
+        "movieImageUrl": "assets/images/raidersofthelastark.jpg"
+    },
+    {
+        "id": 55,
+        "movieName": "Django Unchained",
+        "movieYear": 2012,
+        "movieRating": 8.4,
+        "movieSummary": "With the help of a German bounty-hunter, a freed slave sets out to rescue his wife from a brutal plantation-owner in Mississippi.",
+        "movieImageUrl": "assets/images/djangounchained.jpg"
+    },
+    {
+        "id": 56,
+        "movieName": "Wall-E",
+        "movieYear": 2008,
+        "movieRating": 8.4,
+        "movieSummary": "In the distant future, a small waste-collecting robot inadvertently embarks on a space journey that will ultimately decide the fate of mankind.",
+        "movieImageUrl": "assets/images/walle.jpg"
+    },
+    {
+        "id": 57,
+        "movieName": "Das Leben der Anderen",
+        "movieYear": 2006,
+        "movieRating": 8.4,
+        "movieSummary": "In 1984 East Berlin, an agent of the secret police, conducting surveillance on a writer and his lover, finds himself becoming increasingly absorbed by their lives.",
+        "movieImageUrl": "assets/images/daslebenderanderen.jpg"
+    },
+    {
+        "id": 58,
+        "movieName": "Sunset Blvd.",
+        "movieYear": 1950,
+        "movieRating": 8.4,
+        "movieSummary": "A screenwriter develops a dangerous relationship with a faded film star determined to make a triumphant return.",
+        "movieImageUrl": "assets/images/sunsetblvd.jpg"
+    },
+    {
+        "id": 59,
+        "movieName": "Paths of Glory",
+        "movieYear": 1957,
+        "movieRating": 8.4,
+        "movieSummary": "After refusing to attack an enemy position, a general accuses the soldiers of cowardice and their commanding officer must defend them.",
+        "movieImageUrl": "assets/images/pathsofglory.jpg"
+    },
+    {
+        "id": 60,
+        "movieName": "The Great Dictator",
+        "movieYear": 1940,
+        "movieRating": 8.4,
+        "movieSummary": "Dictator Adenoid Hynkel tries to expand his empire while a poor Jewish barber tries to avoid persecution from Hynkel's regime.",
+        "movieImageUrl": "assets/images/thegreatdictator.jpg"
+    },
+    {
+        "id": 61,
+        "movieName": "Joker",
+        "movieYear": 2019,
+        "movieRating": 8.3,
+        "movieSummary": "A mentally troubled stand-up comedian embarks on a downward spiral that leads to the creation of an iconic villain.",
+        "movieImageUrl": "assets/images/joker.jpg"
+    },
+    {
+        "id": 62,
+        "movieName": "Avengers: Endgame",
+        "movieYear": 2019,
+        "movieRating": 8.3,
+        "movieSummary": "After the devastating events of Yenilmezler: Sonsuzluk Savaşı (2018), the universe is in ruins. With the help of remaining allies, the Avengers assemble once more in order to reverse Thanos' actions and restore balance to the universe.",
+        "movieImageUrl": "assets/images/avengersendgame.jpg"
+    },
+    {
+        "id": 63,
+        "movieName": "Kill Bill: Vol. 1",
+        "movieYear": 2003,
+        "movieRating": 8.2,
+        "movieSummary": "After awakening from a four-year coma, a former assassin wreaks vengeance on the team of assassins who betrayed her.",
+        "movieImageUrl": "assets/images/killbillvol1.jpg"
+    },
+    {
+        "id": 64,
+        "movieName": "V for Vendetta",
+        "movieYear": 2005,
+        "movieRating": 8.2,
+        "movieSummary": "In a future British dystopian society, a shadowy freedom fighter, known only by the alias of 'V', plots to overthrow the tyrannical government - with the help of a young woman.",
+        "movieImageUrl": "assets/images/vforvendetta.jpg"
+    },
+    {
+        "id": 65,
+        "movieName": "Gran Torino",
+        "movieYear": 2008,
+        "movieRating": 8.1,
+        "movieSummary": "Disgruntled Korean War veteran Walt Kowalski sets out to reform his neighbor, Thao Lor, a Hmong teenager who tried to steal Kowalski's prized possession: a 1972 Gran Torino.",
+        "movieImageUrl": "assets/images/grantorino.jpg"
+    },
+    {
+        "id": 66,
+        "movieName": "Prisoners",
+        "movieYear": 2013,
+        "movieRating": 8.1,
+        "movieSummary": "When Keller Dover's daughter and her friend go missing, he takes matters into his own hands as the police pursue multiple leads and the pressure mounts.",
+        "movieImageUrl": "assets/images/prisoners.jpg"
+    },
+    {
+        "id": 67,
+        "movieName": "Sin City",
+        "movieYear": 2005,
+        "movieRating": 8.0,
+        "movieSummary": "An exploration of the dark and miserable Basin City and three of its residents, all of whom are caught up in violent corruption.",
+        "movieImageUrl": "assets/images/sincity.jpg"
+    },
+    {
+        "id": 68,
+        "movieName": "Donnie Darko",
+        "movieYear": 2001,
+        "movieRating": 8.0,
+        "movieSummary": "After narrowly escaping a bizarre accident, a troubled teenager is plagued by visions of a man in a large rabbit suit who manipulates him to commit a series of crimes.",
+        "movieImageUrl": "assets/images/donniedarko.jpg"
+    },
+    {
+        "id": 69,
+        "movieName": "Doctor Zhivago",
+        "movieYear": 1965,
+        "movieRating": 7.9,
+        "movieSummary": "The life of a Russian physician and poet who, although married to another, falls in love with a political activist's wife and experiences hardship during World War I and then the October Revolution.",
+        "movieImageUrl": "assets/images/drzhivago.jpg"
+    },
+    {
+        "id": 70,
+        "movieName": "Edward Scissorhands",
+        "movieYear": 1990,
+        "movieRating": 7.9,
+        "movieSummary": "An artificial man, who was incompletely constructed and has scissor for hands, leads a solitary life. Then one day, a suburban lady meets him and introduces him to her world.",
+        "movieImageUrl": "assets/images/edwardscissorhands.jpg"
+    },
+    {
+        "id": 71,
+        "movieName": "Avatar",
+        "movieYear": 2009,
+        "movieRating": 7.8,
+        "movieSummary": "A paraplegic Marine dispatched to the moon Pandora on a unique mission becomes torn between following his orders and protecting the world he feels is his home.",
+        "movieImageUrl": "assets/images/avatar.jpg"
+    },
+    {
+        "id": 72,
+        "movieName": "The Batman",
+        "movieYear": 2022,
+        "movieRating": 7.8,
+        "movieSummary": "When a sadistic serial killer begins murdering key political figures in Gotham, Batman is forced to investigate the city's hidden corruption and question his family's involvement.",
+        "movieImageUrl": "assets/images/thebatman.jpg"
+    },
+    {
+        "id": 73,
+        "movieName": "Home Alone",
+        "movieYear": 1990,
+        "movieRating": 7.7,
+        "movieSummary": "An eight-year-old troublemaker must protect his house from a pair of burglars when he is accidentally left home alone by his family during Christmas vacation.",
+        "movieImageUrl": "assets/images/homealone.jpg"
+    },
+    {
+        "id": 74,
+        "movieName": "The Goonies",
+        "movieYear": 1985,
+        "movieRating": 7.7,
+        "movieSummary": "A group of young misfits called The Goonies discover an ancient map and set out on an adventure to find a legendary pirate's long-lost treasure.",
+        "movieImageUrl": "assets/images/thegoonies.jpg"
+    },
+    {
+        "id": 75,
+        "movieName": "Planes, Trains & Automobiles",
+        "movieYear": 1987,
+        "movieRating": 7.6,
+        "movieSummary": "A Chicago advertising man must struggle to travel home from New York for Thanksgiving, with a lovable oaf of a shower-curtain-ring salesman as his only companion.",
+        "movieImageUrl": "assets/images/planestrainsandautomobiles.jpg"
+    },
+    {
+        "id": 76,
+        "movieName": "Once Upon a Time in Hollywood",
+        "movieYear": 2019,
+        "movieRating": 7.6,
+        "movieSummary": "A faded television actor and his stunt double strive to achieve fame and success in the final years of Hollywood's Golden Age in 1969 Los Angeles.",
+        "movieImageUrl": "assets/images/onceuponatimeinhollywood.jpg"
+    },
+    {
+        "id": 77,
+        "movieName": "Eyes Wide Shut",
+        "movieYear": 1999,
+        "movieRating": 7.5,
+        "movieSummary": "A Manhattan doctor embarks on a bizarre, night-long odyssey after his wife's admission of unfulfilled longing.",
+        "movieImageUrl": "assets/images/eyeswideshut.jpg"
+    },
+    {
+        "id": 78,
+        "movieName": "Beetle Juice",
+        "movieYear": 1988,
+        "movieRating": 7.5,
+        "movieSummary": "The spirits of a deceased couple are harassed by an unbearable family that has moved into their home, and hire a malicious spirit to drive them out.",
+        "movieImageUrl": "assets/images/beetlejuice.jpg"
+    },
+    {
+        "id": 79,
+        "movieName": "John Wick",
+        "movieYear": 2014,
+        "movieRating": 7.4,
+        "movieSummary": "An ex-hit-man comes out of retirement to track down the gangsters that killed his dog and took his car.",
+        "movieImageUrl": "assets/images/johnwick.jpg"
+    },
+    {
+        "id": 80,
+        "movieName": "Nobody",
+        "movieYear": 2021,
+        "movieRating": 7.4,
+        "movieSummary": "A docile family man slowly reveals his true character after his house gets burgled by two petty thieves, which, coincidentally, leads him into a bloody war with a Russian crime boss.",
+        "movieImageUrl": "assets/images/nobody.jpg"
+    },
+    {
+        "id": 81,
+        "movieName": "Tenet",
+        "movieYear": 2020,
+        "movieRating": 7.3,
+        "movieSummary": "Armed with only one word, Tenet, and fighting for the survival of the entire world, a Protagonist journeys through a twilight world of international espionage on a mission that will unfold in something beyond real time.",
+        "movieImageUrl": "assets/images/tenet.jpg"
+    },
+    {
+        "id": 82,
+        "movieName": "Split",
+        "movieYear": 2016,
+        "movieRating": 7.3,
+        "movieSummary": "Three girls are kidnapped by a man with a diagnosed 23 distinct personalities. They must try to escape before the apparent emergence of a frightful new 24th.",
+        "movieImageUrl": "assets/images/split.jpg"
+    },
+    {
+        "id": 83,
+        "movieName": "Don't Look Up",
+        "movieYear": 2021,
+        "movieRating": 7.2,
+        "movieSummary": "Two low-level astronomers must go on a giant media tour to warn humankind of an approaching comet that will destroy planet Earth.",
+        "movieImageUrl": "assets/images/dontlookup.jpg"
+    },
+    {
+        "id": 84,
+        "movieName": "The Equalizer",
+        "movieYear": 2014,
+        "movieRating": 7.2,
+        "movieSummary": "A man who believes he has put his mysterious past behind him cannot stand idly by when he meets a young girl under the control of ultra-violent Russian gangsters.",
+        "movieImageUrl": "assets/images/theequalizer.jpg"
+    },
+    {
+        "id": 85,
+        "movieName": "Free Guy",
+        "movieYear": 2021,
+        "movieRating": 7.1,
+        "movieSummary": "A bank teller discovers that he's actually an NPC inside a brutal, open world video game.",
+        "movieImageUrl": "assets/images/freeguy.jpg"
+    },
+    {
+        "id": 86,
+        "movieName": "Wrath of Man",
+        "movieYear": 2021,
+        "movieRating": 7.1,
+        "movieSummary": "A cold and mysterious character working at a cash truck company responsible for moving a lot of money around Los Angeles each week.",
+        "movieImageUrl": "assets/images/wrathofman.jpg"
+    },
+    {
+        "id": 87,
+        "movieName": "Transformers",
+        "movieYear": 2007,
+        "movieRating": 7.0,
+        "movieSummary": "An ancient struggle between two Cybertronian races, the heroic Autobots and the evil Decepticons, comes to Earth, with a clue to the ultimate power held by a teenager.",
+        "movieImageUrl": "assets/images/transformers.jpg"
+    },
+    {
+        "id": 88,
+        "movieName": "Orphan",
+        "movieYear": 2009,
+        "movieRating": 7.0,
+        "movieSummary": "A husband and wife who recently lost their baby adopt a 9-year-old girl who is not nearly as innocent as she appears.",
+        "movieImageUrl": "assets/images/orphan.jpg"
+    }
+]
