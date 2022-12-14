@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_movie_app/models/movies.dart';
 import 'package:flutter_movie_app/services/services.dart';
+import 'package:flutter_movie_app/views/detail/detail_page.dart';
 import 'package:flutter_movie_app/views/home/widgets/movie_item.dart';
 
 class Category extends StatelessWidget {
@@ -28,7 +29,15 @@ class Category extends StatelessWidget {
               children: [
                 _buildTitle('Now Playing', FontWeight.bold, 20, Colors.white),
                 const Spacer(),
-                _buildTitle('See All', FontWeight.bold, 16, Colors.grey)
+                TextButton(
+                    onPressed: () {
+                      Navigator.push(
+                          context,
+                          MaterialPageRoute(
+                              builder: (context) => const DetailPage()));
+                    },
+                    child: _buildTitle(
+                        'See All', FontWeight.bold, 16, Colors.grey))
               ],
             ),
             FutureBuilder<List<Movies>>(

@@ -11,16 +11,15 @@ class MovieItem extends StatelessWidget {
       shape: const RoundedRectangleBorder(
           borderRadius: BorderRadius.all(Radius.circular(20))),
       child: Row(
-        crossAxisAlignment: CrossAxisAlignment.start,
+        crossAxisAlignment: CrossAxisAlignment.center,
         children: [
           Container(
-            height: 250,
-            width: 200,
+            height: 120,
+            width: 130,
             decoration: BoxDecoration(
                 borderRadius: BorderRadius.circular(20),
                 image: DecorationImage(
-                    image: AssetImage(movies.movieImageUrl),
-                    fit: BoxFit.cover)),
+                    image: AssetImage(movies.movieImageUrl), fit: BoxFit.fill)),
           ),
           Expanded(
             child: Padding(
@@ -39,16 +38,6 @@ class MovieItem extends StatelessWidget {
                   ),
                   Text(
                     movies.movieYear.toString(),
-                    style: const TextStyle(
-                        fontSize: 16,
-                        fontWeight: FontWeight.bold,
-                        color: Colors.grey),
-                  ),
-                  const SizedBox(
-                    height: 10,
-                  ),
-                  Text(
-                    movies.movieSummary,
                     style: const TextStyle(
                         fontSize: 16,
                         fontWeight: FontWeight.bold,
