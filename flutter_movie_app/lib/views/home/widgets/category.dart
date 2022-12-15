@@ -27,17 +27,18 @@ class Category extends StatelessWidget {
             ),
             Row(
               children: [
-                _buildTitle('Now Playing', FontWeight.bold, 20, Colors.white),
+                _buildTitle('Now Playing', FontWeight.bold, 20, Colors.white,
+                    'FjallaOne'),
                 const Spacer(),
                 TextButton(
                     onPressed: () {
-                      Navigator.push(
+                      /*Navigator.push(
                           context,
                           MaterialPageRoute(
-                              builder: (context) => const DetailPage()));
+                              builder: (context) => DetailPage(movies: movies!,)));*/
                     },
-                    child: _buildTitle(
-                        'See All', FontWeight.bold, 16, Colors.grey))
+                    child: _buildTitle('See All', FontWeight.bold, 16,
+                        Colors.grey, 'FjallaOne'))
               ],
             ),
             FutureBuilder<List<Movies>>(
@@ -54,7 +55,16 @@ class Category extends StatelessWidget {
                             return Padding(
                               padding: const EdgeInsets.symmetric(
                                   horizontal: 10, vertical: 10),
-                              child: MovieItem(movies: movies),
+                              child: GestureDetector(
+                                child: MovieItem(movies: movies),
+                                onTap: () {
+                                  Navigator.push(
+                                      context,
+                                      MaterialPageRoute(
+                                          builder: (context) =>
+                                              DetailPage(movies: movies)));
+                                },
+                              ),
                             );
                           }),
                     );
@@ -70,18 +80,22 @@ class Category extends StatelessWidget {
     );
   }
 
-  Widget _buildTitle(
-      String text, FontWeight fontWeight, double fontSize, Color color) {
+  Widget _buildTitle(String text, FontWeight fontWeight, double fontSize,
+      Color color, String fontFamily) {
     return Container(
       padding: const EdgeInsets.symmetric(horizontal: 25),
       child: Text(
         text,
-        style:
-            TextStyle(fontWeight: fontWeight, fontSize: fontSize, color: color),
+        style: TextStyle(
+            fontWeight: fontWeight,
+            fontSize: fontSize,
+            color: color,
+            fontFamily: fontFamily),
       ),
     );
   }
 
   //listMovies!.length > 7 ? 7 : listMovies.length,
   //Color.fromARGB(255, 49, 46, 46),
+  //FjallaOne
 }

@@ -31,7 +31,9 @@ class MovieItem extends StatelessWidget {
                   Text(
                     movies.movieName,
                     style: const TextStyle(
-                        fontSize: 16, fontWeight: FontWeight.bold),
+                        fontSize: 16,
+                        fontWeight: FontWeight.bold,
+                        fontFamily: 'FjallaOne'),
                   ),
                   const SizedBox(
                     height: 10,
@@ -41,7 +43,8 @@ class MovieItem extends StatelessWidget {
                     style: const TextStyle(
                         fontSize: 16,
                         fontWeight: FontWeight.bold,
-                        color: Colors.grey),
+                        color: Colors.grey,
+                        fontFamily: 'FjallaOne'),
                   ),
                   const SizedBox(
                     height: 10,
@@ -59,7 +62,8 @@ class MovieItem extends StatelessWidget {
                           style: const TextStyle(
                               fontSize: 16,
                               fontWeight: FontWeight.bold,
-                              color: Colors.black),
+                              color: Colors.black,
+                              fontFamily: 'FjallaOne'),
                         ),
                       ],
                     ),
