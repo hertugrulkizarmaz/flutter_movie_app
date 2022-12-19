@@ -11,8 +11,8 @@ class DetailHeader extends StatelessWidget {
       },
       child: Container(
           padding: const EdgeInsets.only(top: 20, left: 15),
-          width: 30,
-          height: 30,
+          width: 40,
+          height: 40,
           decoration: const BoxDecoration(
               shape: BoxShape.circle, color: Colors.transparent),
           child: const Icon(

@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_movie_app/constants/constants.dart';
+import 'package:flutter_movie_app/constants/ui_colors.dart';
 
 class Search extends StatelessWidget {
   const Search({Key? key}) : super(key: key);
@@ -10,9 +12,9 @@ class Search extends StatelessWidget {
         child: Stack(
           children: [
             TextField(
-              cursorColor: Colors.blue,
+              cursorColor: UIColors.textFieldCursorColor,
               decoration: InputDecoration(
-                  fillColor: const Color(0xFFF6F8FF),
+                  fillColor: UIColors.inputDecorationFillColor,
                   filled: true,
                   border: OutlineInputBorder(
                     borderRadius: BorderRadius.circular(20),
@@ -25,12 +27,11 @@ class Search extends StatelessWidget {
                   ),
                   prefixIcon: const Icon(
                     Icons.search_outlined,
-                    color: Colors.blueGrey,
+                    color: UIColors.textFieldPrefixIconColor,
                     size: 30,
                   ),
-                  hintText: 'Search movie',
-                  hintStyle: TextStyle(
-                      fontSize: 14, color: Colors.grey.withOpacity(0.7))),
+                  hintText: Constants.textFieldHintText,
+                  hintStyle: Constants.textFieldHintTextStyle),
             ),
             Positioned(
                 bottom: 6,

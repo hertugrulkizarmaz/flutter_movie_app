@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_movie_app/constants/constants.dart';
+import 'package:flutter_movie_app/constants/ui_colors.dart';
 import 'package:flutter_movie_app/models/movies.dart';
 import 'package:flutter_movie_app/services/services.dart';
 
@@ -9,7 +11,7 @@ class ComingSoon extends StatelessWidget {
   Widget build(BuildContext context) {
     return Container(
       height: 300,
-      color: const Color.fromARGB(255, 49, 46, 46),
+      color: UIColors.defaultContainerColor,
       child: Padding(
         padding: const EdgeInsets.all(8),
         child: Column(
@@ -19,12 +21,21 @@ class ComingSoon extends StatelessWidget {
             ),
             Row(
               children: [
-                _buildTitle('Coming Soon', FontWeight.bold, 20, Colors.white),
+                _buildTitle(
+                    Constants.comingSoonTitle,
+                    Constants.comingSoonTitleFontWeight,
+                    Constants.comingSoonTitleTextSize,
+                    Constants.comingSoonTitleTextColor,
+                    Constants.defaultAppFontFamily),
                 const Spacer(),
                 TextButton(
                     onPressed: () {},
                     child: _buildTitle(
-                        'See All', FontWeight.bold, 16, Colors.grey)),
+                        Constants.comingSoonTextButtonTitle,
+                        Constants.comingSoonTextButtonFontWeight,
+                        Constants.comingSoonTextButtonTitleTextSize,
+                        Constants.comingSoonTextButtonTitleTextColor,
+                        Constants.defaultAppFontFamily)),
               ],
             ),
             FutureBuilder<List<Movies>>(
@@ -79,14 +90,17 @@ class ComingSoon extends StatelessWidget {
     );
   }
 
-  Widget _buildTitle(
-      String text, FontWeight fontWeight, double fontSize, Color color) {
+  Widget _buildTitle(String text, FontWeight fontWeight, double fontSize,
+      Color color, String fontFamily) {
     return Container(
       padding: const EdgeInsets.symmetric(horizontal: 25),
       child: Text(
         text,
-        style:
-            TextStyle(fontWeight: fontWeight, fontSize: fontSize, color: color),
+        style: TextStyle(
+            fontWeight: fontWeight,
+            fontSize: fontSize,
+            color: color,
+            fontFamily: fontFamily),
       ),
     );
   }
