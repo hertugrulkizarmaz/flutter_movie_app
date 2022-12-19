@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_movie_app/constants/constants.dart';
+import 'package:flutter_movie_app/constants/ui_colors.dart';
 import 'package:flutter_movie_app/models/movies.dart';
 import 'package:flutter_movie_app/services/services.dart';
 import 'package:flutter_movie_app/views/detail/detail_page.dart';
@@ -12,7 +14,7 @@ class Category extends StatelessWidget {
     return Container(
       height: 400,
       decoration: const BoxDecoration(
-        color: Color.fromARGB(255, 49, 46, 46),
+        color: UIColors.defaultContainerColor,
         borderRadius: BorderRadius.only(
           topLeft: Radius.circular(20),
           topRight: Radius.circular(20),
@@ -27,8 +29,12 @@ class Category extends StatelessWidget {
             ),
             Row(
               children: [
-                _buildTitle('Now Playing', FontWeight.bold, 20, Colors.white,
-                    'FjallaOne'),
+                _buildTitle(
+                    Constants.nowPlayingTitle,
+                    Constants.nowPlayingTitleFontWeight,
+                    Constants.nowPlayingTitleTextSize,
+                    Constants.nowPlayingTitleTextColor,
+                    Constants.defaultAppFontFamily),
                 const Spacer(),
                 TextButton(
                     onPressed: () {
@@ -37,8 +43,12 @@ class Category extends StatelessWidget {
                           MaterialPageRoute(
                               builder: (context) => DetailPage(movies: movies!,)));*/
                     },
-                    child: _buildTitle('See All', FontWeight.bold, 16,
-                        Colors.grey, 'FjallaOne'))
+                    child: _buildTitle(
+                        Constants.nowPlayingTextButtonTitle,
+                        Constants.nowPlayingTextButtonFontWeight,
+                        Constants.nowPlayingTextButtonTitleTextSize,
+                        Constants.nowPlayingTextButtonTitleTextColor,
+                        Constants.defaultAppFontFamily))
               ],
             ),
             FutureBuilder<List<Movies>>(
@@ -98,4 +108,11 @@ class Category extends StatelessWidget {
   //listMovies!.length > 7 ? 7 : listMovies.length,
   //Color.fromARGB(255, 49, 46, 46),
   //FjallaOne
+  /*
+  Constants.nowPlayingTitle,
+                        Constants.nowPlayingTitleFontWeight,
+                        Constants.nowPlayingTitleTextSize,
+                        Constants.nowPlayingTitleTextColor,
+                        Constants.defaultAppFontFamily
+  */
 }
