@@ -66,4 +66,12 @@ class Constants {
       TextStyle(fontFamily: 'FjallaOne', fontSize: 18);
   static const TextStyle detailSummaryMovieSummaryTextStyle =
       TextStyle(fontFamily: 'FjallaOne', fontSize: 16);
+  static const String addToFavoritesButtonText = 'Add To Favorites';
+  static const TextStyle addToFavoritesButtonTextStyle =
+      TextStyle(color: Colors.black, fontWeight: FontWeight.bold);
+
+  //Favorites Page
+  //My List Tile Widget
+  static const TextStyle mylistTileMoviesTextStyle =
+      TextStyle(fontSize: 18, fontWeight: FontWeight.bold, color: Colors.black);
 }

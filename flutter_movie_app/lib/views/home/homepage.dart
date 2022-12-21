@@ -4,9 +4,14 @@ import 'package:flutter_movie_app/views/home/widgets/coming_soon.dart';
 import 'package:flutter_movie_app/views/home/widgets/header.dart';
 import 'package:flutter_movie_app/views/home/widgets/search.dart';
 
-class HomePage extends StatelessWidget {
+class HomePage extends StatefulWidget {
   const HomePage({Key? key}) : super(key: key);
 
+  @override
+  State<HomePage> createState() => _HomePageState();
+}
+
+class _HomePageState extends State<HomePage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(

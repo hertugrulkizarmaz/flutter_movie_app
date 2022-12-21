@@ -1,10 +1,32 @@
 import 'dart:convert';
+import 'package:hive/hive.dart';
+part 'movies.g.dart';
 
 Movies moviesFromMap(String str) => Movies.fromMap(json.decode(str));
 
 String moviesToMap(Movies data) => json.encode(data.toMap());
 
-class Movies {
+@HiveType(typeId: 0)
+class Movies extends HiveObject{
+
+  @HiveField(0)
+  final int id;
+
+  @HiveField(1)
+  final String movieName;
+
+  @HiveField(2)
+  final int movieYear;
+
+  @HiveField(3)
+  final double movieRating;
+
+  @HiveField(4)
+  final String movieSummary;
+
+  @HiveField(5)
+  final String movieImageUrl;
+
   Movies(
       {required this.id,
       required this.movieName,
@@ -12,13 +34,6 @@ class Movies {
       required this.movieRating,
       required this.movieSummary,
       required this.movieImageUrl});
-
-  final int id;
-  final String movieName;
-  final int movieYear;
-  final double movieRating;
-  final String movieSummary;
-  final String movieImageUrl;
 
   factory Movies.fromMap(Map<String, dynamic> json) => Movies(
         id: json["id"],

@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_movie_app/constants/constants.dart';
 import 'package:flutter_movie_app/models/movies.dart';
+import 'package:flutter_screenutil/flutter_screenutil.dart';
 
 class DetailImage extends StatelessWidget {
   final Movies movies;
@@ -9,7 +10,9 @@ class DetailImage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Positioned(
-      top: MediaQuery.of(context).size.height / 3.6,
+      top: ScreenUtil().orientation == Orientation.portrait
+          ? MediaQuery.of(context).size.height / 3
+          : MediaQuery.of(context).size.width / 6,
       child: Row(
         children: [
           Container(
