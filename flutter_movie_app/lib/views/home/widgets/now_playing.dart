@@ -1,11 +1,12 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_movie_app/constants/constants.dart';
 import 'package:flutter_movie_app/models/movies.dart';
 import 'package:flutter_movie_app/services/services.dart';
 import 'package:flutter_movie_app/views/detail/detail_page.dart';
 import 'package:flutter_movie_app/views/home/widgets/movie_item.dart';
 
-class Category extends StatelessWidget {
-  const Category({Key? key}) : super(key: key);
+class NowPlaying extends StatelessWidget {
+  const NowPlaying({Key? key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
@@ -27,8 +28,12 @@ class Category extends StatelessWidget {
             ),
             Row(
               children: [
-                _buildTitle('Now Playing', FontWeight.bold, 20, Colors.white,
-                    'FjallaOne'),
+                _buildTitle(
+                  Constants.nowPlayingTitle, 
+                  Constants.nowPlayingTitleFontWeight, 
+                  Constants.nowPlayingTitleFontSize, 
+                  Constants.nowPlayingTitleTextColor,
+                  Constants.defaultFontFamily),
                 const Spacer(),
                 TextButton(
                     onPressed: () {
@@ -37,8 +42,13 @@ class Category extends StatelessWidget {
                           MaterialPageRoute(
                               builder: (context) => DetailPage(movies: movies!,)));*/
                     },
-                    child: _buildTitle('See All', FontWeight.bold, 16,
-                        Colors.grey, 'FjallaOne'))
+                    child: _buildTitle(
+                      Constants.nowPlayingButtonText, 
+                      Constants.comingSoonButtonFontWeight, 
+                      Constants.comingSoonButtonFontSize,
+                    Constants.comingSoonButtonTextColor, 
+                      Constants.defaultFontFamily
+                    ))
               ],
             ),
             FutureBuilder<List<Movies>>(

@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_movie_app/constants/constants.dart';
 import 'package:flutter_movie_app/models/movies.dart';
 
 class MovieItem extends StatelessWidget {
@@ -30,21 +31,14 @@ class MovieItem extends StatelessWidget {
                 children: [
                   Text(
                     movies.movieName,
-                    style: const TextStyle(
-                        fontSize: 16,
-                        fontWeight: FontWeight.bold,
-                        fontFamily: 'FjallaOne'),
+                    style: Constants.movieNameTextStyle
                   ),
                   const SizedBox(
                     height: 10,
                   ),
                   Text(
                     movies.movieYear.toString(),
-                    style: const TextStyle(
-                        fontSize: 16,
-                        fontWeight: FontWeight.bold,
-                        color: Colors.grey,
-                        fontFamily: 'FjallaOne'),
+                    style: Constants.movieYearTextStyle,
                   ),
                   const SizedBox(
                     height: 10,
@@ -59,11 +53,7 @@ class MovieItem extends StatelessWidget {
                         ),
                         Text(
                           movies.movieRating.toString(),
-                          style: const TextStyle(
-                              fontSize: 16,
-                              fontWeight: FontWeight.bold,
-                              color: Colors.black,
-                              fontFamily: 'FjallaOne'),
+                          style: Constants.movieRatingTextStyle,
                         ),
                       ],
                     ),

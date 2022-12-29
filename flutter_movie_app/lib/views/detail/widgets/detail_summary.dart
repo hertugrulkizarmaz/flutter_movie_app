@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_movie_app/constants/constants.dart';
+import 'package:flutter_movie_app/constants/ui_colors.dart';
 import 'package:flutter_movie_app/models/movies.dart';
 
 class DetailSummary extends StatelessWidget {
@@ -23,7 +25,7 @@ class DetailSummary extends StatelessWidget {
               color: Colors.grey,
               spreadRadius: -10),
         ],
-        color: Color.fromARGB(255, 49, 46, 46),
+        color: UIColors.detailSummaryContainerColor,
       ),
       child: Padding(
         padding: const EdgeInsets.all(20.0),
@@ -31,14 +33,15 @@ class DetailSummary extends StatelessWidget {
           mainAxisAlignment: MainAxisAlignment.center,
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
-            const Text('Storyboard',
-                style: TextStyle(fontFamily: 'FjallaOne', fontSize: 18)),
+            const Text(Constants.detailSummaryTitleText,
+                style: Constants.detailSummaryTitleTextStyle
+                ),
             const SizedBox(
               height: 10,
             ),
             Text(
               movies.movieSummary,
-              style: const TextStyle(fontFamily: 'FjallaOne', fontSize: 16),
+              style: Constants.detailSummaryMovieTextStyle,
             )
           ],
         ),

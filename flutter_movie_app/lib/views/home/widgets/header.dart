@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_movie_app/constants/constants.dart';
 
 class Header extends StatelessWidget {
   const Header({Key? key}) : super(key: key);
@@ -18,18 +19,15 @@ class Header extends StatelessWidget {
             crossAxisAlignment: CrossAxisAlignment.start,
             children: const [
               Text(
-                'Welcome',
-                style: TextStyle(
-                    fontSize: 22,
-                    color: Colors.white,
-                    fontWeight: FontWeight.bold),
+                Constants.headerTitleText,
+                style: Constants.headerTitleTextStyle,
               ),
               SizedBox(
                 height: 5,
               ),
               Text(
-                'What do you want to watch?',
-                style: TextStyle(fontSize: 18, color: Colors.white),
+                Constants.searchBarTitle,
+                style: Constants.searchBarTitleTextStyle,
               )
             ],
           ),

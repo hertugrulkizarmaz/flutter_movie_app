@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_movie_app/constants/constants.dart';
 import 'package:flutter_movie_app/models/movies.dart';
 import 'package:flutter_movie_app/services/services.dart';
 
@@ -19,12 +20,23 @@ class ComingSoon extends StatelessWidget {
             ),
             Row(
               children: [
-                _buildTitle('Coming Soon', FontWeight.bold, 20, Colors.white),
+                _buildTitle(
+                  Constants.comingSoonTitleText, 
+                  Constants.comingSoonTitleFontWeight, 
+                  Constants.comingSoonTitleFontSize, 
+                  Constants.comingSoonTitleTextColor,
+                  Constants.defaultFontFamily
+                  ),
                 const Spacer(),
                 TextButton(
                     onPressed: () {},
                     child: _buildTitle(
-                        'See All', FontWeight.bold, 16, Colors.grey)),
+                        Constants.comingSoonButtonText, 
+                        Constants.comingSoonButtonFontWeight, 
+                        Constants.comingSoonButtonFontSize, 
+                        Constants.comingSoonButtonTextColor,
+                        Constants.defaultFontFamily
+                        )),
               ],
             ),
             FutureBuilder<List<Movies>>(
@@ -80,13 +92,13 @@ class ComingSoon extends StatelessWidget {
   }
 
   Widget _buildTitle(
-      String text, FontWeight fontWeight, double fontSize, Color color) {
+      String text, FontWeight fontWeight, double fontSize, Color color, String fontFamily) {
     return Container(
       padding: const EdgeInsets.symmetric(horizontal: 25),
       child: Text(
         text,
         style:
-            TextStyle(fontWeight: fontWeight, fontSize: fontSize, color: color),
+            TextStyle(fontWeight: fontWeight, fontSize: fontSize, color: color, fontFamily: fontFamily),
       ),
     );
   }

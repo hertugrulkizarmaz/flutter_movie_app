@@ -8,7 +8,7 @@ class DetailImage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Positioned(
-      top: MediaQuery.of(context).size.height / 3.6,
+      top: MediaQuery.of(context).size.height / 3.2,
       child: Row(
         children: [
           Container(

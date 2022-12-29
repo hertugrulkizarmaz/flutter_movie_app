@@ -1,0 +1,4 @@
+class UIHelper {
+  UIHelper._();
+  
+}

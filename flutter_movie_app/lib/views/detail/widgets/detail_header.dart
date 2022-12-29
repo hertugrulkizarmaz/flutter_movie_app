@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_movie_app/constants/ui_colors.dart';
 
 class DetailHeader extends StatelessWidget {
   const DetailHeader({Key? key}) : super(key: key);
@@ -11,13 +12,13 @@ class DetailHeader extends StatelessWidget {
       },
       child: Container(
           padding: const EdgeInsets.only(top: 20, left: 15),
-          width: 30,
-          height: 30,
+          width: 40,
+          height: 40,
           decoration: const BoxDecoration(
               shape: BoxShape.circle, color: Colors.transparent),
           child: const Icon(
             Icons.arrow_back,
-            color: Colors.white,
+            color: UIColors.detailHeaderIconColor,
           )),
     );
   }
