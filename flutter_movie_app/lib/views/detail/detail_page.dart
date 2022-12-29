@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_movie_app/models/movies.dart';
 import 'package:flutter_movie_app/views/detail/widgets/backgorund_image_widget.dart';
+import 'package:flutter_movie_app/views/detail/widgets/detail_goto_favorite_icon.dart';
 import 'package:flutter_movie_app/views/detail/widgets/detail_header.dart';
 import 'package:flutter_movie_app/views/detail/widgets/detail_image.dart';
 import 'package:flutter_movie_app/views/detail/widgets/detail_summary.dart';
@@ -19,7 +20,16 @@ class DetailPage extends StatelessWidget {
               Stack(
                 children: [
                   BackgroundImageWidget(movies),
-                  const DetailHeader(),
+                  Padding(
+                    padding: const EdgeInsets.all(12.0),
+                    child: Row(
+                      children: const [
+                        DetailHeader(),
+                        Spacer(),
+                        DetailGoToFavoriteIcon()
+                      ],
+                    ),
+                  ),
                   DetailSummary(movies),
                   DetailImage(movies)
                 ],

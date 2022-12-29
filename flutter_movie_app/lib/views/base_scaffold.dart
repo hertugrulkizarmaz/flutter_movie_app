@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_movie_app/views/allmovies/all_movies.dart';
 import 'package:flutter_movie_app/views/favorites/favorites.dart';
 import 'package:flutter_movie_app/views/home/homepage.dart';
 
@@ -14,6 +15,7 @@ class _BaseScaffoldState extends State<BaseScaffold> {
   List<BottomNavigationBarItem> items = const [
     BottomNavigationBarItem(icon: Icon(Icons.home_outlined), label: 'Home'),
     BottomNavigationBarItem(icon: Icon(Icons.favorite), label: 'Favorites'),
+    BottomNavigationBarItem(icon: Icon(Icons.movie_outlined), label: 'All Movies'),
   ];
 
   int _selectedIndex = 0;
@@ -42,6 +44,8 @@ class _BaseScaffoldState extends State<BaseScaffold> {
         return const HomePage();
       case 1:
         return const Favorites();
+      case 2:
+        return const AllMovies();
       default:
         return const HomePage();
     }

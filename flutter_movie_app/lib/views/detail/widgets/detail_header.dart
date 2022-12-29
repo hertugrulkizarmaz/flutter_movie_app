@@ -10,14 +10,14 @@ class DetailHeader extends StatelessWidget {
         Navigator.pop(context);
       },
       child: Container(
-          padding: const EdgeInsets.only(top: 20, left: 15),
           width: 40,
           height: 40,
           decoration: const BoxDecoration(
               shape: BoxShape.circle, color: Colors.transparent),
           child: const Icon(
-            Icons.arrow_back,
-            color: Colors.white,
+            Icons.arrow_back_outlined,
+            color: Colors.amber,
+            size: 35,
           )),
     );
   }
