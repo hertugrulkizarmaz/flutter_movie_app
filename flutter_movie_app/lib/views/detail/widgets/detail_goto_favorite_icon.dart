@@ -14,6 +14,7 @@ class DetailGoToFavoriteIcon extends StatelessWidget {
           Navigator.push(context, MaterialPageRoute(builder: (context)=> const Favorites()));
         }, 
         icon: const Icon(Icons.list_outlined, color: Colors.amber,),
+        //remember, add color parameter to constants
         iconSize: 35,
       ),
     );
