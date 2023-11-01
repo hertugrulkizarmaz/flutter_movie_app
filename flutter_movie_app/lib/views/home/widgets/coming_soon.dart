@@ -54,7 +54,7 @@ class ComingSoon extends StatelessWidget {
 
                               return GestureDetector(
                                 onTap: () {
-                                  //Navigator.push(context, MaterialPageRoute(builder: (context) => DetailPage(listGames[index])));
+                                  
                                 },
                                 child: Card(
                                   elevation: 5,
