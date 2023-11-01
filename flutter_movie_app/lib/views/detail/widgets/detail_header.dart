@@ -17,7 +17,6 @@ class DetailHeader extends StatelessWidget {
           child: const Icon(
             Icons.arrow_back_outlined,
             color: Colors.amber,
-            //remember add color parameter to constants
             size: 35,
           )),
     );
