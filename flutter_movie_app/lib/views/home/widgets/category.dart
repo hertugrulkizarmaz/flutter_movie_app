@@ -104,15 +104,4 @@ class Category extends StatelessWidget {
       ),
     );
   }
-
-  //listMovies!.length > 7 ? 7 : listMovies.length,
-  //Color.fromARGB(255, 49, 46, 46),
-  //FjallaOne
-  /*
-  Constants.nowPlayingTitle,
-                        Constants.nowPlayingTitleFontWeight,
-                        Constants.nowPlayingTitleTextSize,
-                        Constants.nowPlayingTitleTextColor,
-                        Constants.defaultAppFontFamily
-  */
 }
